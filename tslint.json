@@ -1,0 +1,28 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+      "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+      "max-line-length": [true, 300],
+      "no-console": false,
+      "object-literal-sort-keys": false,
+      "object-literal-key-quotes": false,
+      "trailing-comma": false,
+      "max-classes-per-file": false,
+      "no-unused-variable": true,
+      "no-unused-expression": false,
+      "semicolon": false,
+      "arrow-parens": false,
+      "curly": [true, "ignore-same-line"]
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  }
+}
